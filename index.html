@@ -7,52 +7,7 @@
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
-
-<script>
-  $(document).ready(function () {
-    // Your JSON data
-    var jsonData = [
-      {
-        "id": "333352",
-        "order_id": "16059537006",
-        "phone": "380970002200",
-        "buyer_name": "боб бобович",
-        // ... (other fields)
-        "products": [
-          {
-            "order_id": "16059537006",
-            "id": "14632",
-            "quantity": "1",
-            "price": "882.00",
-            "id_sub": "0",
-            "name_sub": "",
-            "name": "Some product name"
-          }
-        ],
-        "products_resale": []
-      }
-    ];
-
-    // Convert JSON data to a string
-    var jsonString = JSON.stringify(jsonData);
-
-    // Send the JSON request
-    $.ajax({
-      url: "http://honey.lp-crm.biz/",
-      type: "POST",
-      contentType: "application/json; charset=utf-8",
-      data: jsonString,
-      success: function (response) {
-        console.log("Request successful:", response);
-        // Handle the response as needed
-      },
-      error: function (error) {
-        console.error("Error:", error);
-        // Handle the error as needed
-      }
-    });
-  });
-</script>
+<iframe scr="hon.in.net"> </iframe>
 
 </body>
 </html>
